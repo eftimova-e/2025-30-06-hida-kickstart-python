@@ -296,6 +296,14 @@ Edit the text to match who can attend the workshop. For instance:
 
 <hr/>
 
+{% if page.collaborative_notes %}
+<h2 id="collaborative_notes">Collaborative Notes</h2>
+
+<p>
+We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+</p>
+<hr/>
+{% endif %}
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
