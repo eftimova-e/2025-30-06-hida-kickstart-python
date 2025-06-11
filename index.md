@@ -438,6 +438,7 @@ during the workshop.
 {% endcomment %}
 
 {% include swc/setup.html %}
+
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
 to obtain the software and data you will need to follow the lesson.
