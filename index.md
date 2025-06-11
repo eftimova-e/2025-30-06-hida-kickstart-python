@@ -436,7 +436,6 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
-{% include dc/setup.html %}
 {% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
 {% elsif site.carpentry == "dc" %}
