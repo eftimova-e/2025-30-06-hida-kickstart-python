@@ -445,7 +445,18 @@ These are the installation instructions for the tools used
 during the workshop.
 {% endcomment %}
 
+
+{% if site.carpentry == "swc" %}
 {% include swc/setup.html %}
+{% elsif site.carpentry == "dc" %}
+{% include dc/setup.html %}
+{% elsif site.carpentry == "lc" %}
+{% include lc/setup.html %}
+{% elsif site.carpentry == "incubator" %}
+Please check the "Setup" page of
+<a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
+to obtain the software and data you will need to follow the lesson.
+{% endif %}
 
 Please check the "Setup" page of
 <a href="{{site.incubator_lesson_site}}">the lesson homepage</a> for instructions to follow
